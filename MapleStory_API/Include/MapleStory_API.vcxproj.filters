@@ -144,9 +144,6 @@
     <ClInclude Include="Scene\SceneResource.h">
       <Filter>02. Scene\01. Resource</Filter>
     </ClInclude>
-    <ClInclude Include="Object\GameObject.h">
-      <Filter>03. Object</Filter>
-    </ClInclude>
     <ClInclude Include="Object\Player.h">
       <Filter>03. Object\01. Character</Filter>
     </ClInclude>
@@ -357,6 +354,9 @@
     <ClInclude Include="UI\UIDeathCount.h">
       <Filter>07. UI\02. Window</Filter>
     </ClInclude>
+    <ClInclude Include="Object\GameObject.h">
+      <Filter>03. Object</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="MapleStory_API.rc">
@@ -407,9 +407,6 @@
     </ClCompile>
     <ClCompile Include="Scene\SceneResource.cpp">
       <Filter>02. Scene\01. Resource</Filter>
-    </ClCompile>
-    <ClCompile Include="Object\GameObject.cpp">
-      <Filter>03. Object</Filter>
     </ClCompile>
     <ClCompile Include="Object\Player.cpp">
       <Filter>03. Object\01. Character</Filter>
@@ -537,9 +534,6 @@
     <ClCompile Include="Scene\BossWillPase2.cpp">
       <Filter>02. Scene</Filter>
     </ClCompile>
-    <ClCompile Include="Object\WillPase2.cpp">
-      <Filter>03. Object\01. Character</Filter>
-    </ClCompile>
     <ClCompile Include="UI\UIBossWillPase2.cpp">
       <Filter>07. UI\02. Window</Filter>
     </ClCompile>
@@ -593,6 +587,12 @@
     </ClCompile>
     <ClCompile Include="UI\UIDeathCount.cpp">
       <Filter>07. UI\02. Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\GameObject.cpp">
+      <Filter>03. Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\WillPase2.cpp">
+      <Filter>03. Object\01. Character</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
